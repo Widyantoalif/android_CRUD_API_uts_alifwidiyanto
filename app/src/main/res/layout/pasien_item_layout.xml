@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:padding="5dp"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID_pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_id_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama_pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_nama_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_alamat_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis kelamin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_jk_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_umur_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telp pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_telp_pasien"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Pasien"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#525252"
+        android:id="@+id/tv_status_pasien"/>
+
+</LinearLayout>

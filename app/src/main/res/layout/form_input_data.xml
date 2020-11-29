@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"/>
+
+    <EditText
+        android:id="@+id/et_id_pasien"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama pasien"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_nama_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat pasien"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_alamat_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jenis kelamin"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur pasien"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_umur_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telp Pasien"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_telp_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_status_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
