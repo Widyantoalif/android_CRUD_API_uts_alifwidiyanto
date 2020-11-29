@@ -8,6 +8,7 @@
     android:padding="5dp"
     android:background="#fff">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,14 +17,22 @@
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_id_pasien"/>
+        android:id="@+id/tv_id_pasien"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nama pasien:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nama_pasien"
         android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
         android:id="@+id/tv_nama_pasien"/>
@@ -36,7 +45,8 @@
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_alamat_pasien"/>
+        android:id="@+id/tv_alamat_pasien"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -46,7 +56,8 @@
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_jk_pasien"/>
+        android:id="@+id/tv_jk_pasien"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -56,7 +67,8 @@
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_umur_pasien"/>
+        android:id="@+id/tv_umur_pasien"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -66,16 +78,17 @@
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_telp_pasien"/>
+        android:id="@+id/tv_telp_pasien"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Status Pasien"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:layout_weight="1"
         android:textColor="#525252"
-        android:id="@+id/tv_status_pasien"/>
+        android:id="@+id/tv_status_pasien" />
 
 </LinearLayout>

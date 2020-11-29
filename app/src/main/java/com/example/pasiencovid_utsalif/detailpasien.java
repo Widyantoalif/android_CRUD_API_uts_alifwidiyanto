@@ -43,7 +43,7 @@ public class detailpasien extends AppCompatActivity {
         bt_hapus = (Button) findViewById(R.id.bt_hapus);
 
         //tombol back
-        getSupportActionBar().setTitle("Detil Data"); // for set actionbar title
+        getSupportActionBar().setTitle("Detail Data"); // for set actionbar title
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // for add back arrow in action back
 
         //tangkap bundle
@@ -96,10 +96,9 @@ public class detailpasien extends AppCompatActivity {
 
                             @Override
                             public void onResponse(JSONObject response) {
-                                String id_pasien, nama_pasien, alamat_pasien,jk_pasien,umur_pasien,telp_pasien,status;
 
                                 if (response.optString("result").equals("true")){
-                                    Toast.makeText(getApplicationContext(), "Data terubah!", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "Data"+ id_pasien+"terubah!", Toast.LENGTH_SHORT).show();
 
                                     finish(); //tutup activity
                                 }else{

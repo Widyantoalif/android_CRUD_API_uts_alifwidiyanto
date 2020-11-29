@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bt_ubah"
-            android:text="UBAH"
+            android:text="Update data"
             android:backgroundTint="@color/teal_200"
             android:layout_weight="1" />
         <Button

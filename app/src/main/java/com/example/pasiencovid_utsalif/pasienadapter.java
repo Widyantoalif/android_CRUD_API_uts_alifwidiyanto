@@ -71,8 +71,8 @@ public class pasienadapter extends RecyclerView.Adapter<pasienadapter.GridViewHo
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(context);
-                alertDialog.setTitle("Operasi data");
-                alertDialog.setMessage(id_pasien + " - " + nama_pasien);
+                alertDialog.setTitle("Silahkan Cek data");
+                alertDialog.setMessage(nama_pasien);
                 alertDialog.setPositiveButton("BATAL", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -116,10 +116,9 @@ public class pasienadapter extends RecyclerView.Adapter<pasienadapter.GridViewHo
 
                                     @Override
                                     public void onResponse(JSONObject response) {
-                                        String id, nama, deskripsi;
 
                                         if (response.optString("result").equals("true")) {
-                                            Toast.makeText(context, "Data berhasil dihapus!", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(context, "Data" + " "+nama_pasien+" berhasil dihapus!", Toast.LENGTH_SHORT).show();
 
                                             pasiens.remove(pos); //hapus baris customers
                                             notifyItemRemoved(pos); //refresh customer list ( ada animasinya )

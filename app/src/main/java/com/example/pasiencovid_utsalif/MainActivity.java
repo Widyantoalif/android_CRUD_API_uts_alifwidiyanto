@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onResponse(JSONObject response) {
 
                                 if (response.optString("result").equals("true")) {
-                                    Toast.makeText(getApplicationContext(), "Data Berhasil Ditambah!", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "Data"+ id_pasien+ " Berhasil Ditambah!", Toast.LENGTH_SHORT).show();
 
                                     // panggil fungsi load pada fragment
                                     loadFragment(new FirstFragment());
